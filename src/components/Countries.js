@@ -18,9 +18,26 @@ const Countries = () => {
 
   return (
     <>
-      {countries.map((country) => {
-        const { id } = country;
-        return <article key={id}>Country data</article>;
+      {countries.map((country, id) => {
+        const {
+          name,
+          population,
+          region,
+          capital,
+          flag,
+          numericCode,
+        } = country;
+        return (
+          <article key={numericCode}>
+            <div>
+              <img src={flag} alt={name} />
+              <h3>{name}</h3>
+              <h4>{population}</h4>
+              <h4>{region}</h4>
+              <h4>{capital}</h4>
+            </div>
+          </article>
+        );
       })}
     </>
   );
