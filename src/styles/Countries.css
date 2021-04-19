@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
+  padding: 20px;
 }
 
 /* .grid article {
@@ -45,8 +46,10 @@
 }
 
 @media (min-width: 992px) {
-  body {
-    padding: 50px 100px;
+  .header,
+  .filter,
+  .grid {
+    padding: 20px 30px;
   }
   .grid {
     grid-template-columns: repeat(4, 1fr);

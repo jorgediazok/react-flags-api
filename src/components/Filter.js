@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Filter.css';
 
 const Filter = () => {
   return (
@@ -12,7 +13,7 @@ const Filter = () => {
         />
       </form>
 
-      <div>
+      <div className="region-filter">
         <select name="select" id="select" className="select">
           <option value="Filter by region">Filter by Region</option>
           <option value="Africa">Africa</option>
