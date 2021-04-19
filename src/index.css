@@ -12,4 +12,7 @@ img {
 
 body {
   font-family: 'Nunito Sans', sans-serif;
+  padding: 20px;
+  background-color: #202036;
+  color: #fff;
 }
