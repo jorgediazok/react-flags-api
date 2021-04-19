@@ -4,9 +4,9 @@
   gap: 40px;
 }
 
-.grid article {
-  /* box-shadow: 0 10px 10px rgba(9, 17, 22, 0.5); */
-}
+/* .grid article {
+  box-shadow: 0 10px 10px rgba(9, 17, 22, 0.5);
+} */
 
 .grid .details {
   background-color: #2b3743;
