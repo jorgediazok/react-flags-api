@@ -33,6 +33,29 @@
   font-weight: 300;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--dark-bg-color);
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid var(--dark-bg-color);
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: var(--dark-bg-color);
+}
+
 @media (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
