@@ -39,6 +39,11 @@
   padding: 12px;
 }
 
+.form input.light-theme,
+.form select .light-theme {
+  background-color: var(--light-mode-input);
+}
+
 @media (min-width: 768px) {
   .filter {
     flex-direction: row;

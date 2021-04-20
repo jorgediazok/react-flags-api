@@ -25,3 +25,8 @@ body {
   background-color: #202036;
   color: #fff;
 }
+
+body.light-theme {
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
+}

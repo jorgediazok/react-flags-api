@@ -5,3 +5,12 @@
   background-color: #2b3743;
   padding: 10px 20px;
 }
+
+.header.light-theme {
+  background-color: var(--light-mode-background);
+  background-color: var(--light-mode-text);
+}
+
+.fa-moon {
+  cursor: pointer;
+}
